@@ -1,5 +1,5 @@
 {
-  "Name": "Dreyer et al. 2023 — Motor Imagery EEG dataset",
+  "Name": "Dreyer et al. 2023 — A large EEG database with users' profile information for motor imagery brain-computer interface research",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
