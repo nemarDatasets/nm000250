@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000250-blue)](https://doi.org/10.82901/nemar.nm000250)
+
 # Class for Dreyer2023 dataset management. MI dataset
 
 Class for Dreyer2023 dataset management. MI dataset.
