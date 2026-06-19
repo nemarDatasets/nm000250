@@ -1,7 +1,7 @@
 ﻿filename	acq_time
-eeg/sub-70_ses-0_task-imagery_run-0_recording-R1acquisition_eeg.bdf	2024-09-23T14:02:56.000000Z
-eeg/sub-70_ses-0_task-imagery_run-1_recording-R2acquisition_eeg.bdf	2024-09-23T14:02:59.000000Z
-eeg/sub-70_ses-0_task-imagery_run-2_recording-R3online_eeg.bdf	2024-09-23T14:03:02.000000Z
-eeg/sub-70_ses-0_task-imagery_run-3_recording-R4online_eeg.bdf	2024-09-23T14:03:05.000000Z
-eeg/sub-70_ses-0_task-imagery_run-4_recording-R5online_eeg.bdf	2024-09-23T14:03:08.000000Z
-eeg/sub-70_ses-0_task-imagery_run-5_recording-R6online_eeg.bdf	2024-09-23T14:03:11.000000Z
+eeg/sub-70_ses-0_task-imagery_acq-R1acquisition_run-0_eeg.bdf	2024-09-23T14:02:56.000000Z
+eeg/sub-70_ses-0_task-imagery_acq-R2acquisition_run-1_eeg.bdf	2024-09-23T14:02:59.000000Z
+eeg/sub-70_ses-0_task-imagery_acq-R3online_run-2_eeg.bdf	2024-09-23T14:03:02.000000Z
+eeg/sub-70_ses-0_task-imagery_acq-R4online_run-3_eeg.bdf	2024-09-23T14:03:05.000000Z
+eeg/sub-70_ses-0_task-imagery_acq-R5online_run-4_eeg.bdf	2024-09-23T14:03:08.000000Z
+eeg/sub-70_ses-0_task-imagery_acq-R6online_run-5_eeg.bdf	2024-09-23T14:03:11.000000Z
