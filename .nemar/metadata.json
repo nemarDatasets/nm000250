@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Dreyer et al. 2023 — A large EEG database with users' profile information for motor imagery brain-computer interface research",
+  "description": "A comprehensive EEG database containing electroencephalographic signals from 87 healthy participants performing motor imagery brain-computer interface tasks. The dataset comprises over 20,800 trials (~70 hours of recording) organized into three datasets (A, B, C) using a standardized Graz protocol for right and left hand motor imagery. In addition to raw EEG signals, the database includes detailed participant demographics, personality profiles, cognitive traits, and BCI performance metrics, enabling research on user-BCI performance relationships, cross-user machine learning algorithms, and personalized BCI design.",
+  "methods_description": "Participants performed a Graz protocol motor imagery BCI task with 6 runs (2 calibration runs with sham feedback, 4 online training runs with real feedback). Each run consisted of 40 trials (20 per MI-task) with 8-second trial duration. EEG signals were recorded at 512 Hz from 27 channels using g.USBAmp hardware with active electrodes in 10-20 montage, referenced to left earlobe with ground at FPz. Signal processing employed participant-specific Most Discriminant Frequency Band selection (5-35 Hz), fifth-order Butterworth filtering, Common Spatial Pattern spatial filtering, and Linear Discriminant Analysis classification. Participants completed questionnaires assessing demographics, personality (16PF5), cognitive traits, spatial abilities, and learning style.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Pauline Dreyer": {
       "orcid": "0000-0001-6895-9638"
@@ -10,6 +15,32 @@
     "Sébastien Rimbert": {},
     "Fabien Lotte": {}
   },
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "BCI illiteracy"
+    },
+    {
+      "term": "user training"
+    },
+    {
+      "term": "personality profile"
+    },
+    {
+      "term": "cognitive traits"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-023-02445-z",
@@ -39,14 +70,11 @@
       "award_title": "BrainConquest"
     }
   ],
-  "title": "Dreyer et al. 2023 — A large EEG database with users' profile information for motor imagery brain-computer interface research",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "9.5 GB (521 files)"
   ],
@@ -58,32 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "A comprehensive EEG database containing motor imagery brain-computer interface recordings from 87 healthy participants collected during a single experimental session. The dataset comprises three sub-datasets (A, B, C) with over 20,800 trials of right and left hand motor imagery tasks, complemented by detailed participant demographics, personality profiles, and cognitive trait assessments. This resource enables investigation of relationships between user characteristics and BCI performance, cross-user machine learning algorithm development, and personalized BCI system design.",
-  "methods_description": "Participants performed a Graz protocol motor imagery task with 6 runs (2 calibration runs with sham feedback, 4 online training runs with real feedback). Each run consisted of 40 trials (20 per motor imagery task) with 8-second trial duration. EEG signals were recorded at 512 Hz from 27 channels using g.USBAmp hardware with active electrodes in a 10-20 montage, referenced to left earlobe with ground at FPz. Signal processing employed participant-specific Most Discriminant Frequency Band selection (5-35 Hz), fifth-order Butterworth filtering, Common Spatial Pattern spatial filtering with 3 filter pairs, and Linear Discriminant Analysis classification. Participants completed questionnaires assessing demographics, personality (16PF5), cognitive traits, spatial abilities, and learning style.",
-  "keywords": [
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "BCI illiteracy"
-    },
-    {
-      "term": "user profiling"
-    },
-    {
-      "term": "cognitive traits"
-    },
-    {
-      "term": "machine learning"
-    }
-  ],
-  "source_hash": "54952f043c9fb60ebc9e4f59fa7d997e95100257fec25a0eba107ad10c760d5d"
+  "source_hash": "2ce44bd70650538c0902cbd3a142435e69e8e4f0d52092c86d0a6d473339f304"
 }
