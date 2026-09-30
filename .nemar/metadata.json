@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dreyer et al. 2023 — A large EEG database with users' profile information for motor imagery brain-computer interface research",
-  "description": "A large EEG database of 87 healthy participants performing a right- versus left-hand motor imagery brain-computer interface task in a single-day session, organized into three datasets (A, B, C) recorded with the same Graz protocol. Each participant completed 240 trials (over 20,800 in total). The database includes demographics, personality profile and cognitive trait information. It supports studies of the relationship between user profile and BCI performance, and the design of cross-user classification algorithms.",
-  "methods_description": "EEG was recorded at 512 Hz with a g.USBAmp amplifier (g.tec) and active electrodes: 27 EEG channels, plus EOG and EMG channels, referenced to the left earlobe with ground at FPz. Participants completed 6 runs (2 calibration runs with sham feedback and 4 online training runs with real continuous visual feedback) of 40 trials each. Online processing used participant-specific discriminant frequency band selection (5-35 Hz), a fifth-order Butterworth filter, CSP spatial filtering and an LDA classifier. Questionnaires assessed demographics, personality (16PF5), cognitive traits, spatial abilities and learning style.",
+  "description": "A large EEG database from 87 healthy participants recorded during a single-day motor imagery brain-computer interface (BCI) experiment, organized into three datasets (A, B, C) that share the same protocol. Participants imagined left- and right-hand movements in a Graz protocol with calibration and online training runs (240 trials per participant). The database also includes demographics, personality profiles, and cognitive traits, so it can be used to study how user profiles relate to BCI performance and to develop cross-user classification algorithms.",
+  "methods_description": "EEG was recorded at 512 Hz with a g.USBAmp (g.tec) and active electrodes: 27 EEG channels plus EMG and EOG, referenced to the left earlobe with ground at FPz. Each participant completed 6 runs of 40 trials, 2 calibration runs with sham feedback and 4 online training runs with real feedback. Each trial lasted 8 s, with a red arrow cue followed by continuous visual feedback. Online processing used participant-specific frequency band selection (5-35 Hz), a fifth-order Butterworth filter, CSP spatial filtering and an LDA classifier. Participants also completed questionnaires on demographics, personality (16PF5), cognitive traits, spatial abilities and learning style.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -23,10 +23,7 @@
       "term": "motor imagery"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "brain-computer interface"
     },
     {
       "term": "BCI illiteracy"
@@ -38,7 +35,7 @@
       "term": "personality profile"
     },
     {
-      "term": "cognitive traits"
+      "term": "user profile"
     }
   ],
   "related_identifiers": [
@@ -67,7 +64,7 @@
     {
       "funder_name": "European Research Council",
       "award_number": "ERC-2016-STG-714567",
-      "award_title": "BrainConquest"
+      "award_title": "BrainConquest (ERC Starting Grant)"
     }
   ],
   "resource_type_general": "Dataset",
