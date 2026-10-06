@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dreyer et al. 2023 — A large EEG database with users' profile information for motor imagery brain-computer interface research",
-  "description": "A large EEG database from 87 healthy participants recorded during a single-day motor imagery brain-computer interface (BCI) experiment. The data are organized into three datasets (A, B, C) that share one Graz-protocol task, left- versus right-hand motor imagery, with 240 trials per participant. The database also includes users' demographics, personality profile and cognitive traits, so it can support studies relating user profiles to BCI performance, cross-user machine learning, and profile-informed EEG classification.",
-  "methods_description": "EEG was recorded with a g.USBAmp (g.tec) from 27 active electrodes, plus EOG and EMG channels, at 512 Hz, with a left earlobe reference and FPz ground. Each participant completed 6 runs of a Graz protocol motor imagery task: 2 calibration runs with sham feedback and 4 online training runs with real continuous visual feedback. Online processing used participant-specific most-discriminant frequency band selection (5-35 Hz), a fifth-order Butterworth filter, CSP spatial filtering and an LDA classifier. Participants also completed questionnaires on demographics, personality (16PF5), cognitive traits, spatial abilities and learning style.",
+  "description": "A large EEG database from 87 healthy participants recorded during a single-day motor imagery brain-computer interface (BCI) experiment. The data are organized into three datasets (A, B, C) that share the same Graz protocol of left- and right-hand motor imagery, with 240 trials per participant (over 20,800 trials in total). It also includes demographic, personality and cognitive-trait information, which supports research on links between user profiles and BCI performance, cross-user machine learning, and user-profile-informed classification.",
+  "methods_description": "Participants performed a Graz protocol motor imagery BCI task with 6 runs: 2 calibration runs with sham feedback and 4 online training runs with real feedback. Each run had 40 trials of 8 s. EEG was recorded with g.USBAmp active electrodes at 512 Hz, using OpenViBE. Online processing used participant-specific most-discriminant frequency band selection (5-35 Hz), a Butterworth filter, CSP and an LDA classifier. Participants also completed questionnaires on demographics, personality (16PF5), cognitive traits, spatial abilities and learning style.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,12 +20,10 @@
       "term": "EEG"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "motor imagery"
     },
     {
-      "term": "motor imagery"
+      "term": "brain-computer interface"
     },
     {
       "term": "BCI illiteracy"
@@ -35,6 +33,11 @@
     },
     {
       "term": "personality profile"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
