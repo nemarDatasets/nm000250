@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.1038/s41597-023-02445-z",
  "naming": "upstream_filenames_restored",
- "n_files": 520,
- "total_bytes": 7517273912,
+ "n_files": 521,
+ "total_bytes": 7517293677,
  "files": [
   {
    "file": "sub-01/eeg/sub-01_task-R1acquisition_eeg.edf",
@@ -4170,10 +4170,19 @@
    "scope": "subject",
    "how": "data_path",
    "subject": "87"
+  },
+  {
+   "file": "performance.csv",
+   "bytes": 19765,
+   "sha256": "d77ef4da92c5468f7bc6cf08dc88a5df857a3cfc3c7cb28554107a75cb70bb5b",
+   "scope": "dataset",
+   "how": "not_returned_by_data_path",
+   "retrieved": "2026-10-06",
+   "retrieved_by": "moabb.datasets.Dreyer2023.get_subject_info() (_metainfo_link, OSF)"
   }
  ],
  "n_subjects_recorded": 87,
  "n_subject_scoped_files": 520,
- "n_dataset_scoped_files": 0,
+ "n_dataset_scoped_files": 1,
  "scope_semantics": "Each file carries scope=subject or scope=dataset. scope=subject files have a subject field and belong to that subject alone. scope=dataset files belong to no single subject -- a montage, a README, band or interval definitions -- and are needed whichever subject is fetched. The how field records which rule decided: data_path (moabb returned it for exactly one subject), returned_for_several_subjects, sibling_of_subject_file (a companion such as an EEGLAB .fdt, inherited from a directory whose attributed files all share one subject), or not_returned_by_data_path."
 }
